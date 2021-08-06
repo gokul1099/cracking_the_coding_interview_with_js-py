@@ -27,8 +27,23 @@ const hashTable =(str)=>{
   return true
 }
 
-/* --- --- */
+/* --- booleanArray --- */
+const booleanArray=(str)=>{
+  const length = str.length
+	const arr = new Array(256).fill(0)
+  for(var index=0;index<str.length;index++){
+  	if(arr[str.charCodeAt(index)] === 1){
+    return false
+    }
+    else{
+    	arr[str.charCodeAt(index)] = 1
+    }
+  }
+  return true
+}
+
 
 /* ---test--- */
-console.log(bruteForce("a"))
-console.log(hashTable("aac"))
+bruteForce("a")
+hashTable("aac")
+booleanArray("aa")
