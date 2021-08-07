@@ -43,7 +43,3 @@ const booleanArray=(str)=>{
 }
 
 
-/* ---test--- */
-bruteForce("a")
-hashTable("aac")
-booleanArray("aa")
