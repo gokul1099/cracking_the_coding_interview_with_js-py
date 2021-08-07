@@ -3,8 +3,8 @@ This repo contains js and py attempts on question listed in the cracking the cod
 
 # List of coding question
     Arrays and Strings
-        [] 1.1 Is Unique
-        [] 1.2 Check Permutation
+        [X] 1.1 Is Unique
+        [X] 1.2 Check Permutation
         [] 1.3 URLify
         [] 1.4 Palindrome Permutaion
         [] 1.5 One Away
