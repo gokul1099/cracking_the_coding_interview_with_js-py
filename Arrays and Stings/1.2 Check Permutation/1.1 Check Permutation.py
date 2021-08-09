@@ -5,17 +5,6 @@
 #3. Could a hashtable be useful?
 #4. Two strings that are permutations should have the same characters, but in different orders. Can you make the orders the same?
 
-# --- bruteForce ---
-
-
-def bruteForce(string1,string2):
-    cnt=0
-    for i in string2:
-        if i in string1:
-            cnt+=1
-    if(cnt == len(string2)):
-        return True
-    return False
 
 # --- hashmap ---
 
@@ -38,6 +27,7 @@ def hashMap(string1,string2):
 # --- sorting ---
 # this will work only if both the string have the same length
 def sorting(string1,string2):
+    
     string1=list(string1)
     string2=list(string2)
     string1.sort()
